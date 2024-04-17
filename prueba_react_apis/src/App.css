@@ -1,0 +1,16 @@
+/* Estilos para el componente App */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #ccc;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: hwb(236 59% 2%);
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 30px;
+ 
+  
+}
