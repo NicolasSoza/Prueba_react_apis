@@ -1,4 +1,4 @@
-// MiApi.js
+
 import React, { useEffect, useState } from 'react';
 
 const MiApi = ({ searchOption, searchValue }) => {
@@ -36,7 +36,7 @@ const MiApi = ({ searchOption, searchValue }) => {
     return <p>{error}</p>;
   }
 
-  // Ordenar los sismos por magnitud de menor a mayor
+  
   sismos.sort((a, b) => a.Fecha - b.Fecha);
 
   return (
@@ -44,7 +44,7 @@ const MiApi = ({ searchOption, searchValue }) => {
       <h2>Sismos</h2>
       <ul>
         {sismos.map((sismo, index) => {
-          // Filtrar y mostrar los datos según la opción de búsqueda seleccionada
+          
           let displayData = '';
         
           if (searchOption === 'refGeografica') {
